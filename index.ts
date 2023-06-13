@@ -1,5 +1,5 @@
 require("dotenv").config();
-const { Server } = require("socket.io");
+import { Server } from "socket.io";
 import {
   changeAvatarIE,
   changeSingleTaskStatusIE,
